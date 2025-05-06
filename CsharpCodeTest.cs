@@ -37,19 +37,18 @@ public partial class Player{
 }
 
 
-
-
-public class PlayerList:using UnityEngine;
-
 public class CsharpCodeTest : MonoBehaviour {
     
-
+    private List<Player>  playerList;
     void Awake() {
         
     }
     void Start(){
 
+        if(playerList==null){
+            playerList=new List<Player>();
 
+        }
     
     }
 
