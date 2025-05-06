@@ -14,6 +14,9 @@ for i = 1, var1, 1 do
   
 end
 
+local Tabe2={}
+local Tabe3={}
+
 for i = 1, #table1, 1 do
     print("pos:"..i.."value:"..table1[i])
     

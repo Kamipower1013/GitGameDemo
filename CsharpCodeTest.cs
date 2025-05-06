@@ -19,13 +19,19 @@ public Player(int ID ,string Name,int Level){
 
 public  class BaseSkillUnit{}
 
-public class Player{} : BaseSkillUnit{}
+public class PlayerOutLineSkill: BaseSkillUnit
+{
+ public int SkinID;
+ public int ActiveLevel;
+
+
+}
 
 
 
 public partial class Player{
-    public List<>
-
+    public List<PlayerOutLineSkillPlayerOutLineSkill> outLineSkillList;
+    
 
 
 }
