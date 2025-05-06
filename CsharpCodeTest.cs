@@ -60,5 +60,11 @@ public class CsharpCodeTest : MonoBehaviour {
    void LateUpdate() {
     
    }
+  void OnDestroy() {
+         if(playerList!=null){
+            playerList=null
 
+        }
+    
+    }
 }
