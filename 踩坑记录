@@ -1,0 +1,3 @@
+踩坑记录
+1、 var item = Instantiate(_itemPrefab);
+  item.transform.SetParent(content, false);不加false会自动变Scale的大小，世界坐标和scale和本地坐标scale
